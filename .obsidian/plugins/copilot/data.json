@@ -1,0 +1,810 @@
+{
+  "userId": "9762417d-c78d-4bd0-b11e-4c62f67e1862",
+  "isPaidUser": false,
+  "isPlusUser": false,
+  "entitlementToken": "",
+  "entitlementExpiresAt": 0,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "xaiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "siliconflowApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "google/gemini-2.5-flash|openrouterai",
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "stream": true,
+  "copilotFolder": "copilot",
+  "copilotRootHistory": [
+    "copilot"
+  ],
+  "upgradedToV8FromLegacy": false,
+  "defaultSaveFolder": "copilot/copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": true,
+  "autoAddActiveContentToContext": true,
+  "defaultOpenArea": "view",
+  "defaultSendShortcut": "enter",
+  "customPromptsFolder": "copilot/copilot-custom-prompts",
+  "qaExclusions": "copilot",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "debug": false,
+  "maxSourceChunks": 30,
+  "enableInlineCitations": true,
+  "groqApiKey": "",
+  "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "plusExclusive": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-flash",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.5",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-5.4-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-3.5-flash",
+      "provider": "openrouterai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.5-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.1-flash-lite",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-2.5-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-3.1-pro-preview",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "google/gemini-2.5-pro",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "openai/gpt-5.5",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "openai/gpt-5.4-mini",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "grok-4.3",
+      "provider": "xai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "x-ai/grok-4.3",
+      "provider": "openrouterai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "enabled": false,
+      "isBuiltIn": true,
+      "core": false,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-opus-4-7",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "claude-haiku-4-5",
+      "provider": "anthropic",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-3.1-pro-preview",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision",
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "provider": "google",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true,
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "enabled": false,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "apiKey": ""
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "siliconflow",
+      "enabled": false,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.com/v1",
+      "capabilities": [
+        "reasoning"
+      ],
+      "apiKey": ""
+    }
+  ],
+  "lexicalSearchRamLimit": 100,
+  "promptUsageTimestamps": {},
+  "promptSortStrategy": "timestamp",
+  "chatHistorySortStrategy": "recent",
+  "projectsFolder": "copilot/projects",
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [],
+  "projectList": [],
+  "lastDismissedVersion": null,
+  "lastShownStartupVersion": null,
+  "passMarkdownImages": true,
+  "enableAutonomousAgent": true,
+  "enableCustomPromptTemplating": true,
+  "enableSelfHostMode": false,
+  "enableMiyo": false,
+  "enableMiyoSearchSkill": false,
+  "miyoSearchAll": false,
+  "relevantNotesLiveUpdate": true,
+  "miyoServerUrl": "",
+  "selfHostSearchProvider": "firecrawl",
+  "firecrawlApiKey": "",
+  "perplexityApiKey": "",
+  "parallelApiKey": "",
+  "exaApiKey": "",
+  "supadataApiKey": "",
+  "docProcessorBackend": "plus",
+  "enableLexicalBoosts": true,
+  "suggestedDefaultCommands": false,
+  "autonomousAgentEnabledToolIds": [
+    "localSearch",
+    "readNote",
+    "webSearch",
+    "pomodoro",
+    "youtubeTranscription",
+    "writeFile",
+    "editFile",
+    "updateMemory"
+  ],
+  "reasoningEffort": "low",
+  "verbosity": "medium",
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "maxRecentConversations": 30,
+  "enableSavedMemory": true,
+  "quickCommandModelKey": "7349e4e0-e2bf-44ab-a083-0af9a267f550",
+  "quickCommandIncludeNoteContext": true,
+  "autoAcceptEdits": false,
+  "diffViewMode": "split",
+  "userSystemPromptsFolder": "copilot/system-prompts",
+  "defaultSystemPromptTitle": "",
+  "autoCompactThreshold": 128000,
+  "convertedDocOutputFolder": "",
+  "agentMode": {
+    "byok": {},
+    "activeBackend": "opencode",
+    "backends": {
+      "opencode": {
+        "defaultMode": "auto"
+      }
+    },
+    "debugFullFrames": true,
+    "notificationSound": true,
+    "notificationSoundId": "piano",
+    "welcomeDismissed": true,
+    "skills": {
+      "folder": "copilot/skills",
+      "builtinPreferences": {
+        "copilot-web-search": {
+          "disabled": true
+        },
+        "copilot-web-fetch": {
+          "disabled": true
+        },
+        "copilot-read-pdf": {
+          "disabled": true
+        }
+      }
+    },
+    "deviceProfiles": {
+      "0a6434e9-d8db-4402-961b-cd73a879d256": {
+        "opencode": {
+          "binaryPath": "/home/wenbo/.obsidian-copilot/opencode/2.0.22/bin/opencode",
+          "binaryVersion": "2.0.22",
+          "binarySource": "managed",
+          "probeSessionId": "ses_ef45ea54fffeBfg419m8HfdfZb"
+        }
+      }
+    }
+  },
+  "providers": {
+    "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8": {
+      "providerType": "openai-compatible",
+      "displayName": "Ollama",
+      "baseUrl": "http://localhost:11434/v1",
+      "enableCors": false,
+      "requiresApiKey": false,
+      "origin": {
+        "kind": "byok"
+      },
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "addedAt": 1791196404198,
+      "apiKeyKeychainId": null
+    },
+    "322df10d-0944-4a8e-8c9c-5bdf292e64d9": {
+      "providerType": "openai-compatible",
+      "displayName": "opencode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "addedAt": 1791196486424,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "configuredModelId": "7349e4e0-e2bf-44ab-a083-0af9a267f550",
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "info": {
+        "id": "qwen3:8b",
+        "displayName": "qwen3:8b"
+      },
+      "configuredAt": 1791196404214
+    },
+    {
+      "configuredModelId": "4ed62949-3b06-41ef-8b7d-723fe56fe987",
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "info": {
+        "id": "gpt-oss:20b",
+        "displayName": "gpt-oss:20b"
+      },
+      "configuredAt": 1791196404214
+    },
+    {
+      "configuredModelId": "70a46839-5f77-42e7-ab8e-0d64d6c6d952",
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "info": {
+        "id": "deepseek-r1:14b",
+        "displayName": "deepseek-r1:14b"
+      },
+      "configuredAt": 1791196404214
+    },
+    {
+      "configuredModelId": "308d5cc2-555d-48b3-a71e-c291c0be90d2",
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "info": {
+        "id": "huihui_ai/glm-4.7-flash-abliterated:q4_K",
+        "displayName": "huihui_ai/glm-4.7-flash-abliterated:q4_K"
+      },
+      "configuredAt": 1791196404214
+    },
+    {
+      "configuredModelId": "a219f946-dcb0-49d8-8179-a2eb22ae9808",
+      "providerId": "dfaed4bd-df9f-4029-a1b2-d72e844cb5c8",
+      "info": {
+        "id": "huihui_ai/Qwen3.6-abliterated:27b",
+        "displayName": "huihui_ai/Qwen3.6-abliterated:27b"
+      },
+      "configuredAt": 1791196404214
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "ollama/deepseek-r1:14b",
+        "displayName": "ollama/deepseek-r1:14b"
+      },
+      "configuredModelId": "0caabe4c-d0ff-4943-bfc3-09c48ca5041d",
+      "configuredAt": 1791196486435
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "ollama/gpt-oss:20b",
+        "displayName": "ollama/gpt-oss:20b"
+      },
+      "configuredModelId": "0dc82929-ff57-4a5c-b922-dcdce3dee185",
+      "configuredAt": 1791196486435
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "ollama/huihui_ai/glm-4.7-flash-abliterated:q4_K",
+        "displayName": "ollama/huihui_ai/glm-4.7-flash-abliterated:q4_K"
+      },
+      "configuredModelId": "167de53f-7575-424d-8604-1a5031679d59",
+      "configuredAt": 1791196486436
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "ollama/huihui_ai/Qwen3.6-abliterated:27b",
+        "displayName": "ollama/huihui_ai/Qwen3.6-abliterated:27b"
+      },
+      "configuredModelId": "599ce07c-9b2c-42f1-8d1b-e120026646d2",
+      "configuredAt": 1791196486436
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "ollama/qwen3:8b",
+        "displayName": "ollama/qwen3:8b"
+      },
+      "configuredModelId": "702e4e28-9fa6-498e-8926-ddcb615248c1",
+      "configuredAt": 1791196486436
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "opencode/Big Pickle"
+      },
+      "configuredModelId": "ee1245d5-bfab-4372-8b32-90a3b2345496",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/fledge-alpha-free",
+        "displayName": "opencode/Fledge Alpha Free"
+      },
+      "configuredModelId": "4ec3de95-602e-4373-9c18-59a43486c26c",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/ling-3.0-flash-fin-free",
+        "displayName": "opencode/Ling 3.0 Flash Fin Free"
+      },
+      "configuredModelId": "a5d5d754-8f1a-4e6d-8b3c-502e06b4d754",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/ling-3.1-flash-free",
+        "displayName": "opencode/Ling 3.1 Flash Free"
+      },
+      "configuredModelId": "83667b8e-213a-4ee3-b3e7-be03895a6b62",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/longcat-2.5-preview-free",
+        "displayName": "opencode/LongCat 2.5 Preview Free"
+      },
+      "configuredModelId": "2f43036f-4b2f-45bb-9466-ab4550670e13",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "opencode/MiMo-V2.6-Flash Free"
+      },
+      "configuredModelId": "21e952bd-973d-4ea1-a4cb-81934a381955",
+      "configuredAt": 1791196486437
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/muse-spark-1.3-contributor-free",
+        "displayName": "opencode/Muse Spark 1.3 Free"
+      },
+      "configuredModelId": "a4caa36a-24e0-4ac5-84ae-9092d677cffb",
+      "configuredAt": 1791196486438
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/nemotron-3-ultra-free",
+        "displayName": "opencode/Nemotron 3 Ultra Free"
+      },
+      "configuredModelId": "c37e5959-281d-46a0-bfd2-eb4cec8e3005",
+      "configuredAt": 1791196486438
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "opencode/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "f0a9c1a2-c9c9-4471-a461-2ea1e70a34c8",
+      "configuredAt": 1791196486439
+    },
+    {
+      "providerId": "322df10d-0944-4a8e-8c9c-5bdf292e64d9",
+      "info": {
+        "id": "opencode/space-bunny-free",
+        "displayName": "opencode/Space Bunny Free"
+      },
+      "configuredModelId": "b385991b-c6e6-41f4-94ff-64c123adc1e4",
+      "configuredAt": 1791196486439
+    }
+  ],
+  "backends": {
+    "chat": {
+      "enabledModels": [
+        "7349e4e0-e2bf-44ab-a083-0af9a267f550",
+        "4ed62949-3b06-41ef-8b7d-723fe56fe987",
+        "70a46839-5f77-42e7-ab8e-0d64d6c6d952",
+        "308d5cc2-555d-48b3-a71e-c291c0be90d2",
+        "a219f946-dcb0-49d8-8179-a2eb22ae9808"
+      ]
+    },
+    "opencode": {
+      "enabledModels": [
+        "7349e4e0-e2bf-44ab-a083-0af9a267f550",
+        "4ed62949-3b06-41ef-8b7d-723fe56fe987",
+        "70a46839-5f77-42e7-ab8e-0d64d6c6d952",
+        "308d5cc2-555d-48b3-a71e-c291c0be90d2",
+        "a219f946-dcb0-49d8-8179-a2eb22ae9808",
+        "0caabe4c-d0ff-4943-bfc3-09c48ca5041d",
+        "0dc82929-ff57-4a5c-b922-dcdce3dee185",
+        "167de53f-7575-424d-8604-1a5031679d59"
+      ]
+    }
+  },
+  "copilotPlusCatalog": {
+    "models": [
+      {
+        "id": "copilot-plus-flash",
+        "displayName": "Copilot Plus Flash",
+        "description": "The default model: fastest responses and the most quota.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.2",
+        "displayName": "GLM-5.2",
+        "description": "A frontier open-weight model.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [
+          "none",
+          "high"
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.3-flash",
+        "displayName": "GLM-5.3-Flash",
+        "description": "Fast, cost-efficient coding and long-horizon agent tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "description": "A top-tier model for the hardest reasoning and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "displayName": "DeepSeek V4 Flash 0731",
+        "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [
+          "none",
+          "high"
+        ],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "displayName": "DeepSeek V4.1 Flash",
+        "description": "Fast multimodal reasoning for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "displayName": "MiMo V2.6 Flash",
+        "description": "Cost-effective model for everyday use.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "minimax-m3",
+        "displayName": "MiniMax M3",
+        "description": "Long-context model for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 524288
+        }
+      }
+    ],
+    "defaultEnabledIds": [
+      "copilot-plus-flash",
+      "glm-5.2",
+      "glm-5.3-flash",
+      "deepseek-v4-pro",
+      "deepseek-v4.1-flash",
+      "minimax-m3"
+    ]
+  },
+  "miyoConnectionMode": "local",
+  "_keychainVaultId": "011efc97",
+  "settingsVersion": 14
+}
